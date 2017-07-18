@@ -1,5 +1,5 @@
 # openassharepoint
-Open offices files from nextCloud/OwnCloud webinterface on >IE11
+Open Microsoft Office files from nextCloud/OwnCloud webinterface on >IE11
 
 ## Information for local and no secure nextCloud server
 Change these values in regedit:
@@ -11,3 +11,7 @@ Change these values in regedit:
 > "OpenDocumentsReadWriteWhileBrowsing"=dword:00000001
 
 Set your web server as "trusted sites" in > IE11 properties
+
+## TODO
+### Admin pannel to add/chage file types (other apps too)
+### Firefox & Chrome compat
