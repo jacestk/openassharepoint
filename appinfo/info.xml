@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>openassharepoint</id>
+	<name>Open as sharepoint</name>
+	<summary>Open a link into Office for a better user experience</summary>
+	<description>
+	You have to add the reg keys to run in a non-secure (http) server.
+	</description>
+	<licence>AGPL</licence>
+	<author>Laurent FARGUES</author>
+	<version>0.1.0</version>
+	<category>social</category>
+	<bugs>https://github.com/jacestk/openassharepoint</bugs>
+	<screenshot></screenshot>
+	<dependencies>
+		<owncloud min-version="8.0" max-version="9.9.0"/>
+		<nextcloud min-version="9" max-version="12.9"/>
+    </dependencies>
+</info>
