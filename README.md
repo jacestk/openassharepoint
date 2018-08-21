@@ -5,7 +5,7 @@ Usefull if you don't have NextCloud client to sync your data.
 No use of downloading, copy and upload files.
 Tested with >IE11 & FireFox & Chrome
 
-## Information for local and no secure nextCloud server (tested on Win7Pro)
+## Information for local and non secure nextCloud server (tested on Win7Pro)
 Change these values in regedit:
 > [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WebClient\Parameters]
 > "BasicAuthLevel"=dword:00000002
