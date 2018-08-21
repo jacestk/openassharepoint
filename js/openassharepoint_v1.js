@@ -5,7 +5,7 @@ by Laurent FARGUES (laurent.fargues@gmail.com)
 first try...
 
 */
-var listOffice = 'extensions: .doc .dot .wbk .docx .docm .docb .xls .xlsx .xlm .xltx .xlw .xll .xlam .xlsb .ppt .pot .pps .pptx .pptm .potx .potm .ppam .accdb .accde .accdt .accdr .ub .xps';
+var listOffice = 'extensions: .doc .dot .wbk .docx .docm .docb .xls .xlsx .xlsm .xltx .xlw .xll .xlam .xlsb .ppt .pot .pps .pptx .pptm .potx .potm .ppam .accdb .accde .accdt .accdr .ub .xps';
 var docOffice = [
   {'ext':'.doc'  ,url:'ms-word:ofe|u|'},
   {'ext':'.docx' ,url:'ms-word:ofe|u|'},
@@ -33,7 +33,8 @@ $(document).ready(function(){
           //if (type = docOffice.find(o=>o.ext === ext)){ 
           console.log(type.url);
           console.log(type.url+window.location.hostname+link.attr('href'));
-          link.attr('href',type.url+'http://'+window.location.hostname+link.attr('href'));
+          //link.attr('href',type.url+'http://'+window.location.hostname+link.attr('href'));
+          link.attr('href',type.url+window.location.protocol+'//'+window.location.hostname+link.attr('href'));
         }
 
       }
